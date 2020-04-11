@@ -1,0 +1,50 @@
+header {
+  background-color: #c6dde1;
+
+  .container {
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      height: 5rem;
+    }
+  }
+
+  .title {
+    flex-grow: 1;
+
+    h1 {
+      font-size: 1.4rem;
+      color: #335e65;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+
+      span {
+        margin-left: 6px;
+      }
+
+      svg {
+        fill: #335e65;
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+      }
+    }
+  }
+
+  .icons {
+    a {
+      font-size: 1.4rem;
+      color: #335e65;
+
+      &:hover {
+        color: rgb(69, 120, 128);
+      }
+    }
+  }
+}
